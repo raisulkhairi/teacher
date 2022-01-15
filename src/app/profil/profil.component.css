@@ -1,0 +1,111 @@
+.head p {
+    font-size: 30px;
+    font-weight: 400;
+}
+.head-profil {
+    margin: 26px 0;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.title-profil {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 18px;
+    margin-left: 35px;
+}
+.route-profil {
+    font-size: 15px;
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+span {
+    color: #cd3a0e;
+}
+.profil-box{
+    border: 1px solid #a5a5a5 ;
+    border-radius: 10px;
+    width: max-content;
+}
+.header-bio {
+    display: flex;
+    align-items: center;
+}
+.name {
+    height: max-content;
+    width: 300px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+img {
+    border-radius: 100%;
+    height: 175px;
+}
+.photo {
+    margin: 20px;
+}
+.name-con {
+    display: flex;
+    margin: 20px;
+}
+.title {
+    width: 200px;
+    font-size: 19px;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+.title2 {
+    font-size: 19px;
+    letter-spacing: 2px;
+}
+.profil-box{
+    border: 1px solid #a5a5a5;
+    border-radius: 10px;
+    width: max-content;
+    margin: 0 auto;
+    background: #ffff;
+    box-shadow: 2px 2px grey;
+}
+/* edit */
+.edit {
+    float: right;
+    margin: 20px;
+    font-size: 25px;
+    ont-weight: 500;
+}
+.edit:hover{
+    cursor: pointer;
+}
+.edit .dropdown{
+    display: none;
+}
+.edit:hover .dropdown{
+    display: block;
+    position: absolute;
+}
+.edit ul li{
+    list-style: none;
+    margin: 25px 5px;
+}
+.edit ul{
+    border: 1px solid #a5a5a5 ;
+    background: #ffff;
+    box-shadow: 2px 2px grey;
+    border-radius: 10px;
+}
+span.logo1 {
+    color: red;
+}
+span.logo2 {
+    color: orange;
+}
+span.logo3 {
+    color: green;
+}
+.bio span{
+    margin-right: 10px;
+}

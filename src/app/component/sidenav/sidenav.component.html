@@ -1,0 +1,32 @@
+<mat-sidenav-container class="d-md-block side-navbar">
+  <mat-sidenav [(opened)]="opened" #sidenav mode="side">
+    <div class="title-sidenav">
+      <div class="logo-sidenav">
+        <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i>
+      </div>
+      <div class="name-sidenav">
+        <p>SD SukaMaju</p>
+      </div>
+    </div>
+    <ul class="list nav">
+      <li>
+        <a routerLink="./dashboard" class="nav-link"
+          ><i class="fas dashboard fa-house-user"></i>Dashboard</a
+        >
+      </li>
+      <li>
+        <a routerLink="./profil" class="nav-link"
+          ><i class="fas dashboard fa-house-user"></i>profil</a
+        >
+      </li>
+    </ul>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar>
+      <div class="menu">
+        <i class="fa fa-bars" aria-hidden="true" (click)="sidenav.toggle()"></i>
+      </div>
+    </mat-toolbar>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
